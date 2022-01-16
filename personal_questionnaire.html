@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>  
+  
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+  <style>
+  body{
+      background-color: #D3BCCC;
+  }
+  button {
+        display: inline-block;
+        background-color: #A167A5;
+        border-radius: 10px;
+        border: 4px double #cccccc;
+        color: #eeeeee;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        margin: 5px;
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 30%;
+        font-family: 'Fjalla One', sans-serif;
+      }
+h1 {
+  color: #0E273C;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 300%;
+  text-align: center;
+}
+label{
+  color: #0E273C;
+  font-family: 'Fjalla One', sans-serif;
+  text-align: center;
+}
+form{
+        color: #0E273C;
+          font-family: 'Fjalla One', sans-serif;
+          text-align: center;
+          font-size: 20px;
+      }
+  </style>
+   <title> Questionnaire </title>
+  </head>
+  
+  <body>
+    
+
+    <h1>Please fill out the following information about yourself</h1>
+    <form method='post' action = ''>
+
+      <label for="sex"> Sex </label>
+      <select name="sex" id="sex">
+        <option value = "male">Male</option>
+        <option value = "female">Female</option>
+        </select>
+    </br> </br>
+  
+    <label for="username">Name</label>
+    <input type="text" id = "name" name = "name">
+    </br></br>
+        
+      <label for = 'age'> Age <label>
+      <select> Age
+      <input type="number"> 
+      </select>
+      </br>
+      
+      
+      <!---<select name = "agerange">Age Range
+        <option value = "18-21">18-21</option>
+        <option value = "22-29">22-29</option>
+        <option value = "30-39">30-39</option>
+        <option value = "40-49">40-49</option>
+        <option value = "50-59">50-59</option>
+        <option value = "60-69">60-69</option>
+        <option value = "70-79">70-79</option>
+        <option value = "80-89">80-89</option>
+        <option value = "90-110">90-110</option>
+      </select>--->
+      </br>
+      
+
+    <h4>Please select five of the following the qualities that describe you best:</h4>
+    <!---please change the qualities idk what we want to include yet--->
+    <form method = 'post'>
+      <label for 'traits'>
+
+      <input type="checkbox" id="quality1" name="quality1" value="clean">
+      <label for="quality1">Clean</label>
+      <br><br>
+
+      <input type="checkbox" id="quality2" name="quality2" value="introvert">
+      <label for="quality2">Shy</label>
+      <br><br>
+
+      <input type="checkbox" id="quality3" name="quality3" value="extrovert">
+      <label for="quality3">Extrovert</label>
+      <br><br>
+
+      <input type="checkbox" id="quality4" name="quality4" value="friendly">
+      <label for="quality4">Friendly</label><br><br>
+
+      <input type="checkbox" id="quality5" name="quality5" value="vegan">
+      <label for="quality5">Vegan</label><br><br>
+
+      <input type="checkbox" id="quality6" name="quality6" value="night owl">
+      <label for="quality6">Night Owl</label><br><br>
+
+      <input type="checkbox" id="quality7" name="quality7" value="early bird">
+      <label for="quality7">Early Bird </label><br><br>
+
+      <input type="checkbox" id="quality8" name="quality8" value="active">
+      <label for="quality8">Active</label><br><br>
+
+      <input type="checkbox" id="quality9" name="quality9" value="studious">
+      <label for="quality9">Studious</label><br><br>
+
+      <input type="checkbox" id="quality10" name="quality10" value="likes to have friends over">
+      <label for="quality10">Friends</label><br><br>
+
+      <input type="checkbox" id="quality11" name="quality11" value="likes alone time">
+      <label for="quality11">Alone Time</label><br><br>
+
+
+
+      </div><a href="/api/questionnaire2"><button type="button" class="btn btn-primary">Submit</button></a> 
+
+     
+      
+    </form>
+
+  </body>
+
+</html>

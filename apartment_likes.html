@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <style>
+    h1 {
+  color: #0E273C;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 300%;
+  text-align: center;
+  }
+
+  p{
+    color: #0E273C;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: left;
+    font-size: 18px;
+  }
+  h3{
+    color: #0E273C;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: left;
+    font-size: 20px;
+  }
+
+  body{
+      background-color: #D3BCCC;
+  }
+
+  form{
+    color: #0E273C;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: left;
+    font-size: 18px;
+  }
+  button {
+        display: inline-block;
+        background-color: #A167A5;
+        border-radius: 10px;
+        border: 4px double #cccccc;
+        color: #eeeeee;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        margin: 5px;
+        width: 40%;
+       
+        font-family: 'Fjalla One', sans-serif;
+      }
+ </style>    
+  </head>
+  <body>
+    <h1>Select your Preferred Apartment</h1>
+    
+    <div class="content">
+      <h3>Apartment #1</h3>
+      <p>This apartment has an amazing view, not fit for people with a fear of heights!</p>
+    </div>
+    <img src="https://i.pinimg.com/originals/de/9e/a1/de9ea1207908f446c8914436422ef1c4.jpg" width="500" height="333"></img>
+    
+
+   <div class="content">
+      <h3>Apartment #2</h3>
+      <p>This apartment is a tiny home, perfect for the minimalist who wants to get cozy</p>
+    </div> 
+    <img src="https://www.dailydreamdecor.com/wp-content/uploads/2020/02/tiny-studio-apartment.jpg" width="500" height="333"></img>
+    <br>
+    <br>
+    <div class="content">
+      <h3>Apartment #3</h3>
+      <p>This apartment is underwater, great for mermaids and wanna be mermaids alike </p>
+    </div>
+    
+    <img src="https://cdn.mrgoodlife.net/wp-content/uploads/2016/03/the-floating-seahorse-daytime-view.jpg"width="500" height="333"></img>
+   
+    <!-- we need a form to allow for the user to select the apartment they like, and must link it to the database -->
+  <form>
+    <label for="choice">Apartment choice: </label>
+    <input type = "number" id="choice" name="choice">
+  </form>
+  <a href="/load_data"><button type='button'>Submit</button></a>
+    
+  </body>
+  </html>

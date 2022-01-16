@@ -1,0 +1,3 @@
+CREATE TABLE apartment_likes (apartment INTEGER PRIMARY KEY, name TEXT)
+
+INSERT INTO apartment_likes(apartment, name) VALUES(?,?)
